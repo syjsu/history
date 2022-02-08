@@ -1,5 +1,4 @@
-[
-	{
+[{
 		"id": 1,
 		"tag": "aisa",
 		"image": "https://img1.baidu.com/it/u=584569230,3404425554&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=283",
@@ -32,8 +31,7 @@
 		"tag": "euro",
 		"image": "https://img0.baidu.com/it/u=4249641189,2185247748&fm=253&fmt=auto&app=120&f=JPEG?w=1229&h=800",
 		"title": "French Revolution",
-		"message": "France had emerged as a powerful nation, and the French Revolution in 1789 set off a new model of government, with other nations following suit with the European Revolutions in 1848. Many changes subsequently occurred, including the formation of the Austro-Hungarian Empire in 1867, and the unification of Germany and of Italy in 1871.
-"
+		"message": "France had emerged as a powerful nation, and the French Revolution in 1789 set off a new model of government, with other nations following suit with the European Revolutions in 1848. Many changes subsequently occurred, including the formation of the Austro-Hungarian Empire in 1867, and the unification of Germany and of Italy in 1871."
 	},
 	{
 		"id": 6,
