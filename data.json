@@ -25,20 +25,21 @@
 		"tag": "euro",
 		"image": "",
 		"title": "Renaissance",
-		"message": "The Italian Renaissance began around 1400, causing a major cultural shift with emphasis on art and science, and important artists like Michelangelo and Leonardo da Vinci emerged. The Age of Exploration and Discovery had begun, and explorers were sent from many countries, especially by the Spanish, Portuguese, French, and British. The Protestant Reformation began around 1517 with Martin Luther publishing the Ninety-five Theses, beginning a period of church reform that would last until 1648. The Thirty Years War lasted from 1618 to 1648, sparked by the religious division of Germany and ending with the Peace of Westphalia. There was also a scientific revolution beginning around the 16th century with major advancements in science made by Copernicus, Galileo, and Isaac Newton. This was followed by the Age of Enlightenment and the Industrial Revolution, which truly transformed the continent. France had emerged as a powerful nation, and the French Revolution in 1789 set off a new model of government, with other nations following suit with the European Revolutions in 1848. Many changes subsequently occurred, including the formation of the Austro-Hungarian Empire in 1867, and the unification of Germany and of Italy in 1871."
+		"message": "The Italian Renaissance began around 1400, causing a major cultural shift with emphasis on art and science, and important artists like Michelangelo and Leonardo da Vinci emerged. The Age of Exploration and Discovery had begun, and explorers were sent from many countries, especially by the Spanish, Portuguese, French, and British. The Protestant Reformation began around 1517 with Martin Luther publishing the Ninety-five Theses, beginning a period of church reform that would last until 1648. The Thirty Years War lasted from 1618 to 1648, sparked by the religious division of Germany and ending with the Peace of Westphalia. "
 	},
 	{
 		"id": 5,
 		"tag": "euro",
 		"image": "",
-		"title": "",
-		"message": ""
+		"title": "French Revolution",
+		"message": "France had emerged as a powerful nation, and the French Revolution in 1789 set off a new model of government, with other nations following suit with the European Revolutions in 1848. Many changes subsequently occurred, including the formation of the Austro-Hungarian Empire in 1867, and the unification of Germany and of Italy in 1871.
+"
 	},
 	{
 		"id": 6,
 		"tag": "euro",
 		"image": "",
-		"title": "",
-		"message": ""
+		"title": "World War I",
+		"message": "In 1914, World War I began with the assassination of Archduke Franz Ferdinand, and the war was fought primarily in Europe. The war ended with the Treaty of Versailles in 1919, but caused major devastation and major changes in Europe. The Russian Revolution, formation of the USSR, the dissolution of Austria-Hungary, the collapse of the Ottoman Empire, and the Turkish War of Independence all happened within a short time. With the stock market crash of 1929 and the ensuing Great Depression, the scene was set for World War II. The Nazi party, led by Hitler, rose to power around 1933, while the Great Purge in the Soviet Union, led by Stalin began in 1937. World War II began in 1939 and continued until 1945, causing incredible destruction and many deaths. "
 	}
 ]
