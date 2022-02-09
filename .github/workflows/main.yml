@@ -1,11 +1,9 @@
 name: Run Python Test Daily
 on:
   workflow_dispatch:
+  push:
   schedule:
     - cron:  "* 0/12 * * *"  #'*/60 * * * *'
-env:
-  GITHUB_USER_NAME: syjsu
-  GITHUB_USER_EMAIL: syjsu@qq.com
 jobs:
   my_job:
     name: test-python
@@ -13,17 +11,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: First. Set up Python 3.8
+      - name: 1. Set up Python 3.8
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
           
-      - name: Second. Install dependencies
+      - name: 2. Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           
-      - name: Third. Run Python Script
+      - name: 3. Run Python Script
         run: |
           python hello.py
