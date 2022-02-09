@@ -1,15 +1,11 @@
-name: swift
-
+name: Run-Swift
 on:
+  workflow_dispatch:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
 jobs:
-  run:
+  my_job:
     runs-on: macos-latest
-
     steps:
+      - name: Running playground
       - uses: actions/checkout@v2
       - uses: syjsu/history@master
