@@ -36,5 +36,5 @@ jobs:
           git config --global user.email "syjsu@qq.com" && git config --global user.name "syjsu"
           git pull
           git add -A
-          git commit -m ":memo 自动更新" || exit 0
+          git commit -m "Automatically Update" || exit 0
           git push
