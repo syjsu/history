@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    - cron:  "* 0/12 * * *"
+    - cron:  "* 9/9 * * *"
 jobs:
   my_job:
     name: test-python
@@ -24,7 +24,7 @@ jobs:
           
       - name: 3. Run Python Script
         run: |
-          python hello.py
+          python3 hello.py
 
       #- name: 4. Show Result
       #  run: |
