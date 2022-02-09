@@ -9,12 +9,12 @@ jobs:
     name: test-python
     runs-on: ubuntu-18.04
     steps:
-      #- uses: actions/checkout@v2
+      - uses: actions/checkout@v2
       
-      #- name: 1. Set up Python 3.8
-      #  uses: actions/setup-python@v2
-      #  with:
-      #    python-version: 3.8
+      - name: 1. Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
                     
       #- name: 2. Install dependencies
       #  run: |
@@ -24,7 +24,7 @@ jobs:
           
       - name: 3. Run Python Script
         run: |
-          python3 hello.py
+          python hello.py
 
       #- name: 4. Show Result
       #  run: |
