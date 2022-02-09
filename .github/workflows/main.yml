@@ -36,5 +36,5 @@ jobs:
           git config --global user.email "syjsu@qq.com" && git config --global user.name "syjsu"
           git pull
           git add -A
-          git commit -m "Update Files" || exit 0
+          git commit -m "Update files" || exit 0
           git push
