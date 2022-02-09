@@ -25,3 +25,7 @@ jobs:
       - name: 3. Run Python Script
         run: |
           python hello.py
+
+      - name: 4. Show Result
+        run: |
+          echo "OK!"
