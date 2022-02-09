@@ -29,3 +29,12 @@ jobs:
       - name: 4. Show Result
         run: |
           echo "OK!"
+          
+      - name: 5. commit and push 
+        run: |
+          git diff
+          git config --global user.email "syjsu@qq.com" && git config --global user.name "syjsu"
+          git pull
+          git add -A
+          git commit -m ":memo 自动更新" || exit 0
+          git push
